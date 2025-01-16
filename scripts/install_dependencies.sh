@@ -9,9 +9,9 @@ sudo apt update -y
 sudo apt install -y nginx
 
 # Optional: Install app-specific dependencies
-if [ -f /var/www/html/package.json ]; then
-  cd /var/www/html
-  npm install
-fi
+#if [ -f /var/www/html/package.json ]; then
+  #cd /var/www/html
+  #npm install
+#fi
 
 echo "Dependencies installed successfully."
